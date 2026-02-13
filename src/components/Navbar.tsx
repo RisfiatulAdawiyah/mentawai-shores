@@ -63,7 +63,7 @@ const Navbar = () => {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const navbarHeight = 64; // Height of sticky navbar
+      const navbarHeight = 56; // Updated height of sticky navbar
       const elementPosition = element.getBoundingClientRect().top + window.pageYOffset;
       const offsetPosition = elementPosition - navbarHeight;
 
@@ -75,26 +75,26 @@ const Navbar = () => {
   };
 
   return (
-    <nav className="sticky top-0 z-50 border-b border-border/60 bg-background/95 backdrop-blur-md shadow-sm">
-      <div className="container mx-auto flex h-16 md:h-20 items-center justify-between px-4 sm:px-6 lg:px-8">
+    <nav className="sticky top-0 z-50 border-b border-border/50 bg-background/95 backdrop-blur-md shadow-sm">
+      <div className="container mx-auto flex h-12 md:h-14 items-center justify-between px-4 sm:px-6 lg:px-8">
         {/* Logo */}
-        <Link to="/" className="flex items-center gap-1.5 sm:gap-2">
-          <span className="font-heading text-lg sm:text-xl font-semibold tracking-tight text-primary">
+        <Link to="/" className="flex items-center gap-1">
+          <span className="font-heading text-sm sm:text-base font-semibold tracking-tight text-primary">
             Mentawai
           </span>
-          <span className="font-heading text-lg sm:text-xl font-light text-foreground">
+          <span className="font-heading text-sm sm:text-base font-light text-foreground">
             Land & Living
           </span>
         </Link>
 
         {/* Desktop links */}
-        <div className="hidden items-center gap-6 md:flex">
+        <div className="hidden items-center gap-4 md:flex">
           {navLinks.map((link) => (
             link.type === 'route' ? (
               <Link
                 key={link.label}
                 to={link.href}
-                className="font-body text-sm text-muted-foreground transition-colors hover:text-foreground"
+                className="font-body text-[13px] text-muted-foreground transition-colors hover:text-foreground"
               >
                 {link.label}
               </Link>
@@ -103,7 +103,7 @@ const Navbar = () => {
                 key={link.label}
                 href={link.href}
                 onClick={(e) => handleScrollLink(e, link.href)}
-                className="font-body text-sm text-muted-foreground transition-colors hover:text-foreground cursor-pointer"
+                className="font-body text-[13px] text-muted-foreground transition-colors hover:text-foreground cursor-pointer"
               >
                 {link.label}
               </a>
@@ -117,10 +117,10 @@ const Navbar = () => {
             <div className="relative">
               <button
                 onClick={() => setUserMenuOpen(!userMenuOpen)}
-                className="flex items-center gap-2 rounded-full border border-border px-4 py-2 transition-colors hover:bg-secondary"
+                className="flex items-center gap-1.5 rounded-full border border-border px-2.5 py-1 transition-colors hover:bg-secondary"
               >
-                <User size={16} />
-                <span className="font-body text-sm">{user.name}</span>
+                <User size={14} />
+                <span className="font-body text-[13px]">{user.name}</span>
               </button>
 
               {userMenuOpen && (
@@ -166,12 +166,12 @@ const Navbar = () => {
           ) : (
             <>
               <Link to="/login">
-                <Button variant="ghost" size="sm" className="rounded-full">
+                <Button variant="ghost" size="sm" className="rounded-full h-8 px-4 text-[13px]">
                   {t('nav.login')}
                 </Button>
               </Link>
               <Link to="/register">
-                <Button variant="default" size="sm" className="rounded-full px-5">
+                <Button variant="default" size="sm" className="rounded-full h-8 px-4 text-[13px]">
                   {t('nav.register')}
                 </Button>
               </Link>
@@ -181,11 +181,11 @@ const Navbar = () => {
 
         {/* Mobile toggle */}
         <button
-          className="md:hidden text-foreground p-2 hover:bg-secondary rounded-lg transition-colors"
+          className="md:hidden text-foreground p-1 hover:bg-secondary rounded-lg transition-colors"
           onClick={() => setMobileOpen(!mobileOpen)}
           aria-label="Toggle menu"
         >
-          {mobileOpen ? <X size={24} /> : <Menu size={24} />}
+          {mobileOpen ? <X size={20} /> : <Menu size={20} />}
         </button>
       </div>
 

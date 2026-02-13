@@ -83,20 +83,20 @@ const HeroSection = () => {
       </div>
 
       {/* Content */}
-      <div className="relative z-10 flex min-h-[90vh] sm:min-h-[85vh] items-center">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-8 sm:py-0">
-          <div className="max-w-4xl mx-auto">
+      <div className="relative z-10 flex min-h-[90vh] sm:min-h-[85vh] items-start lg:items-center">
+        <div className="container mx-auto px-4 sm:px-6 lg:px-8 py-6 sm:py-10 lg:py-12 xl:py-14">
+          <div className="max-w-4xl mx-auto space-y-5 sm:space-y-6 lg:space-y-7">
             {/* Headline */}
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, ease: "easeOut" }}
-              className="text-center mb-6 sm:mb-8 mt-4 sm:mt-0"
+              className="text-center space-y-2.5 sm:space-y-3 lg:space-y-3.5"
             >
-              <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-white mb-3 sm:mb-4 leading-tight px-2">
+              <h1 className="font-heading text-3xl sm:text-4xl md:text-5xl lg:text-5xl xl:text-6xl font-bold text-white leading-tight px-2">
                 {t('hero.title')}
               </h1>
-              <p className="font-body text-base sm:text-lg md:text-xl text-white/90 max-w-2xl mx-auto leading-relaxed px-4">
+              <p className="font-body text-base sm:text-lg md:text-xl lg:text-lg xl:text-xl text-white/90 max-w-2xl lg:max-w-3xl mx-auto leading-relaxed px-4">
                 {t('hero.subtitle')}
               </p>
             </motion.div>
@@ -110,29 +110,27 @@ const HeroSection = () => {
             >
               <form
                 onSubmit={handleSearch}
-                className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 sm:p-6 border border-white/20"
+                className="bg-white/95 backdrop-blur-md rounded-2xl shadow-2xl p-4 sm:p-5 lg:p-5 border border-white/20 space-y-3 sm:space-y-3.5"
               >
                 {/* Search Input - Full Width */}
-                <div className="mb-3 sm:mb-4">
-                  <div className="relative">
-                    <Search className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 h-4 sm:h-5 w-4 sm:w-5 text-muted-foreground" />
-                    <input
-                      type="text"
-                      placeholder={t('hero.searchPlaceholder')}
-                      value={searchParams.search}
-                      onChange={(e) =>
-                        setSearchParams({
-                          ...searchParams,
-                          search: e.target.value,
-                        })
-                      }
-                      className="w-full pl-10 sm:pl-12 pr-4 py-3 sm:py-4 rounded-xl border border-border bg-white font-body text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
-                    />
-                  </div>
+                <div className="relative">
+                  <Search className="absolute left-3 sm:left-4 top-1/2 -translate-y-1/2 h-4 sm:h-5 w-4 sm:w-5 text-muted-foreground" />
+                  <input
+                    type="text"
+                    placeholder={t('hero.searchPlaceholder')}
+                    value={searchParams.search}
+                    onChange={(e) =>
+                      setSearchParams({
+                        ...searchParams,
+                        search: e.target.value,
+                      })
+                    }
+                    className="w-full pl-10 sm:pl-12 pr-4 py-2.5 sm:py-3 lg:py-3.5 rounded-xl border border-border bg-white font-body text-sm sm:text-base focus:outline-none focus:ring-2 focus:ring-primary/50 transition-all"
+                  />
                 </div>
 
                 {/* Filters Row */}
-                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3 mb-3 sm:mb-4">
+                <div className="grid grid-cols-1 sm:grid-cols-3 gap-2.5 sm:gap-3">
                   {/* Location Filter */}
                   <div className="relative">
                     <MapPin className="absolute left-3 top-1/2 -translate-y-1/2 h-4 w-4 text-muted-foreground pointer-events-none z-10" />
@@ -202,7 +200,7 @@ const HeroSection = () => {
                 {/* Search Button */}
                 <button
                   type="submit"
-                  className="w-full bg-primary text-primary-foreground py-3 sm:py-4 rounded-xl font-body font-semibold text-sm sm:text-base hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl active:scale-[0.98]"
+                  className="w-full bg-primary text-primary-foreground py-2.5 sm:py-3 lg:py-3.5 rounded-xl font-body font-semibold text-sm sm:text-base hover:bg-primary/90 transition-all duration-300 shadow-lg hover:shadow-xl active:scale-[0.98]"
                 >
                   {t('hero.searchButton')}
                 </button>
@@ -214,27 +212,37 @@ const HeroSection = () => {
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="mt-6 sm:mt-8 flex flex-wrap justify-center gap-6 sm:gap-8 text-center px-4"
+              className="flex flex-wrap justify-center items-center gap-6 sm:gap-10 lg:gap-12 xl:gap-16 text-center pt-1"
             >
-              <div className="px-3 sm:px-4">
-                <p className="font-heading text-2xl sm:text-3xl font-bold text-white">
+              <div className="flex flex-col items-center space-y-1">
+                <p className="font-heading text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold text-white">
                   {propertiesCount > 0 ? `${propertiesCount}+` : "..."}
                 </p>
-                <p className="font-body text-xs sm:text-sm text-white/80 mt-1">
+                <p className="font-body text-xs sm:text-sm lg:text-xs xl:text-sm text-white/90 leading-tight">
                   {t('about.verifiedProperties')}
                 </p>
               </div>
-              <div className="px-3 sm:px-4 border-l border-white/30">
-                <p className="font-heading text-2xl sm:text-3xl font-bold text-white">
+              
+              <div className="hidden sm:block h-10 lg:h-12 w-px bg-white/30"></div>
+              
+              <div className="flex flex-col items-center space-y-1">
+                <p className="font-heading text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold text-white">
                   {islandsCount || "4"}
                 </p>
-                <p className="font-body text-xs sm:text-sm text-white/80 mt-1">{t('nav.islands')}</p>
+                <p className="font-body text-xs sm:text-sm lg:text-xs xl:text-sm text-white/90 leading-tight">
+                  {t('nav.islands')}
+                </p>
               </div>
-              <div className="px-3 sm:px-4 border-l border-white/30">
-                <p className="font-heading text-2xl sm:text-3xl font-bold text-white">
+              
+              <div className="hidden sm:block h-10 lg:h-12 w-px bg-white/30"></div>
+              
+              <div className="flex flex-col items-center space-y-1">
+                <p className="font-heading text-2xl sm:text-3xl lg:text-2xl xl:text-3xl font-bold text-white">
                   24/7
                 </p>
-                <p className="font-body text-xs sm:text-sm text-white/80 mt-1">{t('about.customerSupport')}</p>
+                <p className="font-body text-xs sm:text-sm lg:text-xs xl:text-sm text-white/90 leading-tight">
+                  {t('about.customerSupport')}
+                </p>
               </div>
             </motion.div>
           </div>
