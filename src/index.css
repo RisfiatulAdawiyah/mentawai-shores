@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  /* Smooth scroll behavior */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  /* Prevent horizontal scroll on mobile */
+  body {
+    overflow-x: hidden;
+  }
+  
+  :root {
+    /* Mentawai tropical palette */
+    --background: 36 33% 96%;
+    --foreground: 30 25% 12%;
+
+    --card: 36 30% 98%;
+    --card-foreground: 30 25% 12%;
+
+    --popover: 36 30% 98%;
+    --popover-foreground: 30 25% 12%;
+
+    /* Deep ocean teal */
+    --primary: 175 35% 28%;
+    --primary-foreground: 36 30% 97%;
+
+    /* Warm sand */
+    --secondary: 35 25% 92%;
+    --secondary-foreground: 30 25% 15%;
+
+    --muted: 35 18% 90%;
+    --muted-foreground: 30 12% 45%;
+
+    /* Soft gold accent */
+    --accent: 35 72% 55%;
+    --accent-foreground: 30 30% 10%;
+
+    --destructive: 0 72% 50%;
+    --destructive-foreground: 0 0% 100%;
+
+    --border: 35 20% 88%;
+    --input: 35 20% 88%;
+    --ring: 175 35% 28%;
+
+    --radius: 0.75rem;
+
+    /* Footer dark green */
+    --footer-bg: 170 40% 10%;
+    --footer-foreground: 36 30% 90%;
+
+    /* Hero overlay */
+    --hero-overlay: linear-gradient(
+      to bottom,
+      hsla(175, 35%, 10%, 0.3) 0%,
+      hsla(175, 35%, 10%, 0.6) 100%
+    );
+
+    /* Sidebar */
+    --sidebar-background: 36 30% 98%;
+    --sidebar-foreground: 30 25% 15%;
+    --sidebar-primary: 175 35% 28%;
+    --sidebar-primary-foreground: 36 30% 97%;
+    --sidebar-accent: 35 25% 92%;
+    --sidebar-accent-foreground: 30 25% 15%;
+    --sidebar-border: 35 20% 88%;
+    --sidebar-ring: 175 35% 28%;
+
+    /* Typography */
+    --font-heading: 'Playfair Display', Georgia, serif;
+    --font-body: 'Inter', system-ui, sans-serif;
+  }
+
+  .dark {
+    --background: 175 30% 6%;
+    --foreground: 36 30% 92%;
+    --card: 175 25% 9%;
+    --card-foreground: 36 30% 92%;
+    --popover: 175 25% 9%;
+    --popover-foreground: 36 30% 92%;
+    --primary: 175 40% 45%;
+    --primary-foreground: 175 30% 6%;
+    --secondary: 175 20% 14%;
+    --secondary-foreground: 36 30% 92%;
+    --muted: 175 15% 16%;
+    --muted-foreground: 36 15% 60%;
+    --accent: 35 72% 55%;
+    --accent-foreground: 30 30% 10%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 175 15% 16%;
+    --input: 175 15% 16%;
+    --ring: 175 40% 45%;
+    --sidebar-background: 175 25% 9%;
+    --sidebar-foreground: 36 30% 92%;
+    --sidebar-primary: 175 40% 45%;
+    --sidebar-primary-foreground: 175 30% 6%;
+    --sidebar-accent: 175 20% 14%;
+    --sidebar-accent-foreground: 36 30% 92%;
+    --sidebar-border: 175 15% 16%;
+    --sidebar-ring: 175 40% 45%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: var(--font-body);
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* Mobile-specific utilities */
+@media (max-width: 640px) {
+  .mobile-safe-padding {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+  
+  .mobile-safe-top {
+    padding-top: max(1rem, env(safe-area-inset-top));
+  }
+}
+
+/* Smooth transitions for interactive elements */
+.smooth-transition {
+  @apply transition-all duration-300 ease-in-out;
+}
+
+/* Better touch targets for mobile */
+.touch-target {
+  min-height: 44px;
+  min-width: 44px;
+}
+
+/* Custom scrollbar styling */
+.scrollbar-thin::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-track {
+  @apply bg-secondary;
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb {
+  @apply bg-primary/50;
+  border-radius: 10px;
+}
+
+.scrollbar-thin::-webkit-scrollbar-thumb:hover {
+  @apply bg-primary;
+}

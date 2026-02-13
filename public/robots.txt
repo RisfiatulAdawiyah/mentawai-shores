@@ -1,0 +1,12 @@
+# https://www.robotstxt.org/robotstxt.html
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://mentawaishores.com/sitemap.xml
+
+# Disallow admin and auth pages
+Disallow: /login
+Disallow: /register
+Disallow: /dashboard
+Disallow: /admin

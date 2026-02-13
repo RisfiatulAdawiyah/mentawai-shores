@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "Home",
+    "properties": "Properties",
+    "islands": "Islands",
+    "about": "About",
+    "contact": "Contact",
+    "login": "Login",
+    "register": "Register",
+    "logout": "Logout",
+    "myProperties": "My Properties",
+    "favorites": "Favorites"
+  },
+  "hero": {
+    "title": "Live Free in Mentawai's Hidden Paradise",
+    "subtitle": "Build your dream life - from luxury beachfront villas to exclusive resorts in Indonesia's most pristine islands",
+    "searchPlaceholder": "Search by location, title, or keyword...",
+    "searchButton": "Search Properties"
+  },
+  "featured": {
+    "title": "Featured Properties",
+    "subtitle": "Our finest selection of premium properties across Mentawai Islands - verified and handpicked just for you",
+    "viewAll": "View All Properties"
+  },
+  "properties": {
+    "title": "Discover Your Dream Property",
+    "subtitle": "Explore our exclusive collection of luxury villas, beachfront land, and premium resorts across the stunning Mentawai Islands",
+    "searchPlaceholder": "Search by location, title, or description...",
+    "searchButton": "Search",
+    "moreFilters": "More Filters",
+    "hideFilters": "Hide Filters",
+    "found": "Properties Found",
+    "showing": "Showing",
+    "noResults": "No Properties Found",
+    "noResultsDesc": "We couldn't find any properties matching your criteria. Try adjusting your filters or search terms.",
+    "clearFilters": "Clear All Filters",
+    "errorTitle": "Oops! Something went wrong",
+    "errorDesc": "We couldn't load the properties. Please check your connection and try again.",
+    "tryAgain": "Try Again",
+    "resetFilters": "Reset Filters",
+    "forSale": "For Sale",
+    "forRent": "For Rent",
+    "featured": "Featured",
+    "viewDetails": "View Details",
+    "bedrooms": "Bedrooms",
+    "bathrooms": "Bathrooms",
+    "landArea": "Land Area",
+    "previous": "Previous",
+    "next": "Next"
+  },
+  "filters": {
+    "title": "Advanced Filters",
+    "propertyType": "Property Type",
+    "allTypes": "All Types",
+    "sale": "For Sale",
+    "rentDaily": "Daily Rent",
+    "rentMonthly": "Monthly Rent",
+    "rentYearly": "Yearly Rent",
+    "sortBy": "Sort By",
+    "newestFirst": "Newest First",
+    "price": "Price",
+    "mostViewed": "Most Viewed",
+    "order": "Order",
+    "highToLow": "High to Low",
+    "lowToHigh": "Low to High",
+    "resetAll": "Reset All"
+  },
+  "islands": {
+    "title": "Discover Mentawai Islands",
+    "subtitle": "Four pristine islands, each with unique character and endless opportunities. From world-class surf breaks to untouched rainforests, find your perfect island paradise.",
+    "exploreTitle": "Explore the Archipelago",
+    "properties": "Properties",
+    "beachfront": "Beachfront",
+    "nature": "Nature",
+    "viewProperties": "View {{count}} Properties",
+    "whyInvest": "Why Invest in Mentawai?",
+    "whyInvestDesc": "The Mentawai Islands offer a rare combination of natural beauty, investment potential, and authentic island living.",
+    "descriptions": {
+      "siberut": "The largest island in the Mentawai archipelago with strong traditional culture and world-class surf spots like Macaronis and Lance's Left.",
+      "sipora": "An island with beautiful beaches and perfect waves for surfing. Famous for surf spots like Telescopes and Iceland.",
+      "pagai-utara": "A peaceful island with pristine natural beauty. Perfect for tourism property investment and resorts.",
+      "pagai-selatan": "The southernmost island with exotic beaches and great potential for tourism property development."
+    },
+    "worldClassSurfing": {
+      "title": "World-Class Surfing",
+      "description": "Home to legendary surf breaks like Macaronis, Lance's Left, and Telescopes."
+    },
+    "pristineNature": {
+      "title": "Pristine Nature",
+      "description": "Untouched rainforests, crystal-clear waters, and diverse marine life."
+    },
+    "growingTourism": {
+      "title": "Growing Tourism",
+      "description": "Increasing international interest with sustainable development opportunities."
+    },
+    "richCulture": {
+      "title": "Rich Culture",
+      "description": "Indigenous Mentawai culture with unique traditions and warm hospitality."
+    },
+    "strategicLocation": {
+      "title": "Strategic Location",
+      "description": "Easy access from Padang, West Sumatra, with regular ferry connections."
+    },
+    "investmentPotential": {
+      "title": "Investment Potential",
+      "description": "Emerging market with strong growth potential in eco-tourism and hospitality."
+    }
+  },
+  "about": {
+    "title": "About Mentawai Shores",
+    "subtitle": "Your trusted gateway to paradise properties in the beautiful Mentawai Islands. We connect dreamers with their perfect slice of tropical heaven.",
+    "ourStory": "Our Story",
+    "ourStoryPara1": "Founded by locals who grew up surfing the legendary waves and exploring the pristine beaches of Mentawai, we understand the magic of these islands like no one else.",
+    "ourStoryPara2": "What started as a passion project to share our home with the world has grown into the most trusted property platform in the Mentawai archipelago. We've helped hundreds of families, investors, and dreamers find their perfect property in paradise.",
+    "ourStoryPara3": "Our mission is simple: to make island living accessible while preserving the natural beauty and cultural heritage that makes Mentawai so special.",
+    "ourValues": "Our Values",
+    "ourValuesDesc": "What drives us every day to serve our clients and community",
+    "verifiedProperties": "Verified Properties",
+    "islandsCovered": "Islands Covered",
+    "customerSupport": "Customer Support",
+    "satisfactionFocus": "Satisfaction Focus",
+    "values": {
+      "trusted": {
+        "title": "Trusted & Verified",
+        "description": "Every property is personally inspected and verified by our local team for authenticity and legal compliance."
+      },
+      "expertise": {
+        "title": "Local Expertise",
+        "description": "Born and raised in Mentawai, our advisors provide insider knowledge and cultural understanding."
+      },
+      "premium": {
+        "title": "Premium Selection",
+        "description": "Curated portfolio of exceptional properties from pristine land to luxury beachfront villas."
+      },
+      "community": {
+        "title": "Community First",
+        "description": "We work alongside local communities ensuring fair, respectful, and sustainable development."
+      }
+    }
+  },
+  "propertyDetail": {
+    "interestedTitle": "Interested in this property?",
+    "interestedDesc": "Send us your details and we'll get back to you shortly.",
+    "fullName": "Full Name",
+    "email": "Email",
+    "phone": "Phone",
+    "message": "Message (Optional)",
+    "messagePlaceholder": "Tell us about your requirements...",
+    "sendInquiry": "Send Inquiry",
+    "sending": "Sending...",
+    "listedBy": "Listed by",
+    "aboutProperty": "About This Property",
+    "facilities": "Facilities & Features",
+    "location": "Location",
+    "buildingArea": "Building",
+    "inquirySuccess": "Your inquiry has been sent successfully!",
+    "inquiryError": "Failed to send inquiry",
+    "notFound": "Property Not Found",
+    "notFoundDesc": "The property you're looking for doesn't exist."
+  },
+  "auth": {
+    "loginTitle": "Welcome Back",
+    "loginSubtitle": "Sign in to access your account",
+    "registerTitle": "Create Account",
+    "registerSubtitle": "Join Mentawai Shores today",
+    "email": "Email Address",
+    "password": "Password",
+    "confirmPassword": "Confirm Password",
+    "fullName": "Full Name",
+    "phone": "Phone Number",
+    "rememberMe": "Remember me",
+    "forgotPassword": "Forgot password?",
+    "loginButton": "Sign In",
+    "registerButton": "Create Account",
+    "noAccount": "Don't have an account?",
+    "hasAccount": "Already have an account?",
+    "signUp": "Sign up",
+    "signIn": "Sign in",
+    "backToHome": "Back to home",
+    "secure": "Secure",
+    "verified": "Verified",
+    "trusted": "Trusted"
+  },
+  "footer": {
+    "tagline": "Your gateway to paradise properties in Mentawai Islands",
+    "quickLinks": "Quick Links",
+    "support": "Support",
+    "legal": "Legal",
+    "followUs": "Follow Us",
+    "newsletter": "Stay Updated",
+    "newsletterDesc": "Get the latest properties and exclusive deals delivered to your inbox",
+    "emailPlaceholder": "Enter your email",
+    "subscribe": "Subscribe",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "faq": "FAQ",
+    "helpCenter": "Help Center",
+    "contactUs": "Contact Us"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "success": "Success",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close",
+    "back": "Back",
+    "continue": "Continue",
+    "submit": "Submit",
+    "search": "Search",
+    "filter": "Filter",
+    "sort": "Sort",
+    "more": "More",
+    "less": "Less",
+    "all": "All",
+    "none": "None",
+    "yes": "Yes",
+    "no": "No",
+    "or": "or",
+    "and": "and",
+    "per": "per",
+    "day": "day",
+    "month": "month",
+    "year": "year"
+  },
+  "trustBadges": {
+    "verified": {
+      "title": "Verified Properties",
+      "description": "Every listing is personally inspected and verified"
+    },
+    "experts": {
+      "title": "Local Experts",
+      "description": "Born and raised in Mentawai with insider knowledge"
+    },
+    "trusted": {
+      "title": "Trusted Platform",
+      "description": "Secure transactions with legal support"
+    },
+    "quality": {
+      "title": "Quality Assured",
+      "description": "Hand-picked premium properties only"
+    }
+  }
+}

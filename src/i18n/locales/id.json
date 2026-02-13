@@ -1,0 +1,248 @@
+{
+  "nav": {
+    "home": "Beranda",
+    "properties": "Properti",
+    "islands": "Pulau",
+    "about": "Tentang",
+    "contact": "Kontak",
+    "login": "Masuk",
+    "register": "Daftar",
+    "logout": "Keluar",
+    "myProperties": "Properti Saya",
+    "favorites": "Favorit"
+  },
+  "hero": {
+    "title": "Hidup Bebas di Surga Tersembunyi Mentawai",
+    "subtitle": "Bangun kehidupan impian Anda - dari villa mewah tepi pantai hingga resort eksklusif di kepulauan paling alami Indonesia",
+    "searchPlaceholder": "Cari berdasarkan lokasi, judul, atau kata kunci...",
+    "searchButton": "Cari Properti"
+  },
+  "featured": {
+    "title": "Properti Unggulan",
+    "subtitle": "Koleksi pilihan properti premium terbaik di Kepulauan Mentawai - diverifikasi dan dipilih khusus untuk Anda",
+    "viewAll": "Lihat Semua Properti"
+  },
+  "properties": {
+    "title": "Temukan Properti Impian Anda",
+    "subtitle": "Jelajahi koleksi eksklusif villa mewah, tanah tepi pantai, dan resort premium di Kepulauan Mentawai yang menakjubkan",
+    "searchPlaceholder": "Cari berdasarkan lokasi, judul, atau deskripsi...",
+    "searchButton": "Cari",
+    "moreFilters": "Filter Lainnya",
+    "hideFilters": "Sembunyikan Filter",
+    "found": "Properti Ditemukan",
+    "showing": "Menampilkan",
+    "noResults": "Properti Tidak Ditemukan",
+    "noResultsDesc": "Kami tidak dapat menemukan properti yang sesuai dengan kriteria Anda. Coba sesuaikan filter atau kata kunci pencarian Anda.",
+    "clearFilters": "Hapus Semua Filter",
+    "errorTitle": "Ups! Terjadi Kesalahan",
+    "errorDesc": "Kami tidak dapat memuat properti. Silakan periksa koneksi Anda dan coba lagi.",
+    "tryAgain": "Coba Lagi",
+    "resetFilters": "Reset Filter",
+    "forSale": "Dijual",
+    "forRent": "Disewakan",
+    "featured": "Unggulan",
+    "viewDetails": "Lihat Detail",
+    "bedrooms": "Kamar Tidur",
+    "bathrooms": "Kamar Mandi",
+    "landArea": "Luas Tanah",
+    "previous": "Sebelumnya",
+    "next": "Selanjutnya"
+  },
+  "filters": {
+    "title": "Filter Lanjutan",
+    "propertyType": "Tipe Properti",
+    "allTypes": "Semua Tipe",
+    "sale": "Dijual",
+    "rentDaily": "Sewa Harian",
+    "rentMonthly": "Sewa Bulanan",
+    "rentYearly": "Sewa Tahunan",
+    "sortBy": "Urutkan",
+    "newestFirst": "Terbaru",
+    "price": "Harga",
+    "mostViewed": "Paling Dilihat",
+    "order": "Urutan",
+    "highToLow": "Tertinggi ke Terendah",
+    "lowToHigh": "Terendah ke Tertinggi",
+    "resetAll": "Reset Semua"
+  },
+  "islands": {
+    "title": "Jelajahi Kepulauan Mentawai",
+    "subtitle": "Empat pulau yang masih alami, masing-masing dengan karakter unik dan peluang tak terbatas. Dari spot surfing kelas dunia hingga hutan hujan yang belum terjamah, temukan surga pulau sempurna Anda.",
+    "exploreTitle": "Jelajahi Kepulauan",
+    "properties": "Properti",
+    "beachfront": "Tepi Pantai",
+    "nature": "Alam",
+    "viewProperties": "Lihat {{count}} Properti",
+    "whyInvest": "Mengapa Investasi di Mentawai?",
+    "whyInvestDesc": "Kepulauan Mentawai menawarkan kombinasi langka dari keindahan alam, potensi investasi, dan kehidupan pulau yang autentik.",
+    "descriptions": {
+      "siberut": "Pulau terbesar di Kepulauan Mentawai dengan budaya tradisional yang kuat dan spot surfing kelas dunia seperti Macaronis dan Lance's Left.",
+      "sipora": "Pulau dengan pantai-pantai indah dan ombak yang sempurna untuk surfing. Terkenal dengan spot surfing seperti Telescopes dan Iceland.",
+      "pagai-utara": "Pulau yang tenang dengan keindahan alam yang masih alami. Cocok untuk investasi properti wisata dan resort.",
+      "pagai-selatan": "Pulau paling selatan dengan pantai-pantai eksotis dan potensi besar untuk pengembangan properti wisata."
+    },
+    "worldClassSurfing": {
+      "title": "Surfing Kelas Dunia",
+      "description": "Rumah bagi spot surfing legendaris seperti Macaronis, Lance's Left, dan Telescopes."
+    },
+    "pristineNature": {
+      "title": "Alam Murni",
+      "description": "Hutan hujan yang belum tersentuh, air jernih, dan kehidupan laut yang beragam."
+    },
+    "growingTourism": {
+      "title": "Pariwisata Berkembang",
+      "description": "Minat internasional yang meningkat dengan peluang pengembangan berkelanjutan."
+    },
+    "richCulture": {
+      "title": "Budaya Kaya",
+      "description": "Budaya asli Mentawai dengan tradisi unik dan keramahan yang hangat."
+    },
+    "strategicLocation": {
+      "title": "Lokasi Strategis",
+      "description": "Akses mudah dari Padang, Sumatera Barat, dengan koneksi feri reguler."
+    },
+    "investmentPotential": {
+      "title": "Potensi Investasi",
+      "description": "Pasar berkembang dengan potensi pertumbuhan kuat dalam eko-wisata dan perhotelan."
+    }
+  },
+  "about": {
+    "title": "Tentang Mentawai Shores",
+    "subtitle": "Gerbang terpercaya Anda ke properti surga di Kepulauan Mentawai yang indah. Kami menghubungkan para pemimpi dengan surga tropis sempurna mereka.",
+    "ourStory": "Kisah Kami",
+    "ourStoryPara1": "Didirikan oleh penduduk lokal yang tumbuh berselancar di ombak legendaris dan menjelajahi pantai-pantai alami Mentawai, kami memahami keajaiban pulau-pulau ini seperti tidak ada yang lain.",
+    "ourStoryPara2": "Yang dimulai sebagai proyek passion untuk berbagi rumah kami dengan dunia telah berkembang menjadi platform properti paling terpercaya di kepulauan Mentawai. Kami telah membantu ratusan keluarga, investor, dan pemimpi menemukan properti sempurna mereka di surga.",
+    "ourStoryPara3": "Misi kami sederhana: membuat kehidupan pulau dapat diakses sambil melestarikan keindahan alam dan warisan budaya yang membuat Mentawai begitu istimewa.",
+    "ourValues": "Nilai-Nilai Kami",
+    "ourValuesDesc": "Yang mendorong kami setiap hari untuk melayani klien dan komunitas kami",
+    "verifiedProperties": "Properti Terverifikasi",
+    "islandsCovered": "Pulau Tercakup",
+    "customerSupport": "Dukungan Pelanggan",
+    "satisfactionFocus": "Fokus Kepuasan",
+    "values": {
+      "trusted": {
+        "title": "Terpercaya & Terverifikasi",
+        "description": "Setiap properti diperiksa dan diverifikasi secara personal oleh tim lokal kami untuk keaslian dan kepatuhan hukum."
+      },
+      "expertise": {
+        "title": "Keahlian Lokal",
+        "description": "Lahir dan besar di Mentawai, penasihat kami memberikan pengetahuan mendalam dan pemahaman budaya."
+      },
+      "premium": {
+        "title": "Pilihan Premium",
+        "description": "Portofolio properti luar biasa yang dikurasi dari tanah alami hingga villa tepi pantai mewah."
+      },
+      "community": {
+        "title": "Komunitas Pertama",
+        "description": "Kami bekerja bersama komunitas lokal memastikan pengembangan yang adil, hormat, dan berkelanjutan."
+      }
+    }
+  },
+  "propertyDetail": {
+    "interestedTitle": "Tertarik dengan properti ini?",
+    "interestedDesc": "Kirimkan detail Anda dan kami akan segera menghubungi Anda.",
+    "fullName": "Nama Lengkap",
+    "email": "Email",
+    "phone": "Telepon",
+    "message": "Pesan (Opsional)",
+    "messagePlaceholder": "Ceritakan tentang kebutuhan Anda...",
+    "sendInquiry": "Kirim Pertanyaan",
+    "sending": "Mengirim...",
+    "listedBy": "Didaftarkan oleh",
+    "aboutProperty": "Tentang Properti Ini",
+    "facilities": "Fasilitas & Fitur",
+    "location": "Lokasi",
+    "buildingArea": "Bangunan",
+    "inquirySuccess": "Pertanyaan Anda berhasil dikirim!",
+    "inquiryError": "Gagal mengirim pertanyaan",
+    "notFound": "Properti Tidak Ditemukan",
+    "notFoundDesc": "Properti yang Anda cari tidak ada."
+  },
+  "auth": {
+    "loginTitle": "Selamat Datang Kembali",
+    "loginSubtitle": "Masuk untuk mengakses akun Anda",
+    "registerTitle": "Buat Akun",
+    "registerSubtitle": "Bergabung dengan Mentawai Shores hari ini",
+    "email": "Alamat Email",
+    "password": "Kata Sandi",
+    "confirmPassword": "Konfirmasi Kata Sandi",
+    "fullName": "Nama Lengkap",
+    "phone": "Nomor Telepon",
+    "rememberMe": "Ingat saya",
+    "forgotPassword": "Lupa kata sandi?",
+    "loginButton": "Masuk",
+    "registerButton": "Buat Akun",
+    "noAccount": "Belum punya akun?",
+    "hasAccount": "Sudah punya akun?",
+    "signUp": "Daftar",
+    "signIn": "Masuk",
+    "backToHome": "Kembali ke beranda",
+    "secure": "Aman",
+    "verified": "Terverifikasi",
+    "trusted": "Terpercaya"
+  },
+  "footer": {
+    "tagline": "Gerbang Anda ke properti surga di Kepulauan Mentawai",
+    "quickLinks": "Tautan Cepat",
+    "support": "Dukungan",
+    "legal": "Legal",
+    "followUs": "Ikuti Kami",
+    "newsletter": "Tetap Update",
+    "newsletterDesc": "Dapatkan properti terbaru dan penawaran eksklusif langsung ke inbox Anda",
+    "emailPlaceholder": "Masukkan email Anda",
+    "subscribe": "Berlangganan",
+    "rights": "Hak cipta dilindungi.",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Syarat Layanan",
+    "faq": "FAQ",
+    "helpCenter": "Pusat Bantuan",
+    "contactUs": "Hubungi Kami"
+  },
+  "common": {
+    "loading": "Memuat...",
+    "error": "Kesalahan",
+    "success": "Berhasil",
+    "cancel": "Batal",
+    "save": "Simpan",
+    "delete": "Hapus",
+    "edit": "Edit",
+    "view": "Lihat",
+    "close": "Tutup",
+    "back": "Kembali",
+    "continue": "Lanjutkan",
+    "submit": "Kirim",
+    "search": "Cari",
+    "filter": "Filter",
+    "sort": "Urutkan",
+    "more": "Lebih",
+    "less": "Kurang",
+    "all": "Semua",
+    "none": "Tidak Ada",
+    "yes": "Ya",
+    "no": "Tidak",
+    "or": "atau",
+    "and": "dan",
+    "per": "per",
+    "day": "hari",
+    "month": "bulan",
+    "year": "tahun"
+  },
+  "trustBadges": {
+    "verified": {
+      "title": "Properti Terverifikasi",
+      "description": "Setiap listing diperiksa dan diverifikasi secara personal"
+    },
+    "experts": {
+      "title": "Ahli Lokal",
+      "description": "Lahir dan besar di Mentawai dengan pengetahuan mendalam"
+    },
+    "trusted": {
+      "title": "Platform Terpercaya",
+      "description": "Transaksi aman dengan dukungan legal"
+    },
+    "quality": {
+      "title": "Kualitas Terjamin",
+      "description": "Hanya properti premium pilihan tangan"
+    }
+  }
+}
